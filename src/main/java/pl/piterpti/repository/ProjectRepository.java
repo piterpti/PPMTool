@@ -13,8 +13,13 @@ import pl.piterpti.domain.Project;
  */
 @Repository
 public interface ProjectRepository extends CrudRepository<Project, Long> {
+	
+	/**
+	 * Get project by project identifier
+	 * @param projectId project identifier
+	 * @return project or null
+	 */
+	Project findByProjectIdentifier(String projectId);
 
-	@Override
-	Iterable<Project> findAllById(Iterable<Long> arg0);
 	
 }
