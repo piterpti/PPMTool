@@ -38,18 +38,18 @@ public class Project {
 	@NotBlank(message = "Project description is required")
 	private String description;
 	
-	@JsonFormat(pattern = "yyyy-mm-dd")
+	@JsonFormat(pattern = "yyyy-MM-dd")
 	private Date startDate;
 	
-	@JsonFormat(pattern = "yyyy-mm-dd")
+	@JsonFormat(pattern = "yyyy-MM-dd")
 	private Date endDate;
 	
 	/** Creation time */
-	@JsonFormat(pattern = "yyyy-mm-dd")
+	@JsonFormat(pattern = "yyyy-MM-dd")
 	private Date createdAt;
 	
 	/** Last update time */
-	@JsonFormat(pattern = "yyyy-mm-dd")
+	@JsonFormat(pattern = "yyyy-MM-dd")
 	private Date updatedAt;
 	
 	public Project() {
