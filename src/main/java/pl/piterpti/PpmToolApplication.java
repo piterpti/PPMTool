@@ -6,8 +6,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 /**
  * Personal Project Management Tool
  * 
- * Main class
- * 
  * @author plukasik
  *
  */
