@@ -1,7 +1,7 @@
 package pl.piterpti.domain;
 
 /**
- * Project entity
+ * Project entity 
  * 
  * @author plukasik
  *
